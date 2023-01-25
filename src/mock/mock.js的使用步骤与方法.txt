@@ -1,0 +1,10 @@
+mock数据（模拟）：如果想使用mock模拟数据，需要用到插件mockjs
+
+插件安装： npm i mockjs
+
+使用步骤：
+1）在项目中src文件下创建mock文件夹
+2）准备json数据【mock文件夹中创建相应的json文件】--格式化json文件 不要留空格
+3）把mock数据需要的图片放置到public文件夹中【public文件夹在打包的时候，会把相应的资源原封不动打包到dist文件夹】
+4）创建mockServer.js通过mockjs插件实现模拟数据
+5）mockServer.js文件在入口文件中引入（至少需要执行一次，才能模拟数据）
